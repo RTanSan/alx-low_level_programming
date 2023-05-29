@@ -9,18 +9,15 @@
  */
 int _strlen(char *s)
 {
-	int t;
+	int t = 0;
 	
 	if (s == 0)
 	{
 		return (0);
 	}
-	else
+	while (s[t] != '\0')
 	{
-		for (t = 16; s[t] != '\0'; t++)
-		{
-			return (t);
-		}
+		t++;
 	}
 	return (t);
 }
