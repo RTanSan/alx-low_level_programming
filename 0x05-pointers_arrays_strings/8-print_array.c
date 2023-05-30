@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
- * print_array - prints n elements of an array of integers, 
- * @a: 
+ * print_array - prints n elements of an array of integers,
+ * @a: pointer declaration
  * @n: elements of an array of integers
  *
  * Return: return void
