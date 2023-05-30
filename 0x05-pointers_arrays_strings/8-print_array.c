@@ -18,11 +18,15 @@ void print_array(int *a, int n)
 		return;
 	}
 
+
 	printf("%d", a[0]);
+
 
 	for (m = 1; m < n; m++)
 	{
 		printf(", %d", a[m]);
 	}
+
+
 	putchar('\n');
 }
