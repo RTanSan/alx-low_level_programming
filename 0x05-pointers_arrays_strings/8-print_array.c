@@ -18,11 +18,6 @@ void print_array(int *a, int n)
 		return;
 	}
 
-	while (a[m] != '\0')
-	{
-		m++;
-	}
-
 	printf("%d", a[0]);
 
 	for (m = 1; m < n; m++)

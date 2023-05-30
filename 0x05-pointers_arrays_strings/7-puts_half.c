@@ -10,7 +10,6 @@
  */
 void puts_half(char *str)
 {
-	char n[100];
 	int length, mid, i;
 
 	length = strlen(str);
@@ -23,13 +22,7 @@ void puts_half(char *str)
 
 	for (i = mid; i < length; i++)
 	{
-		n[i - mid] = str[i];
-	}
-	n[length - mid] = '\0';
-
-	for (i = 0; n[i] != '\0'; i++)
-	{
-		putchar(n[i]);
+		putchar(str[i]);
 	}
 	putchar('\n');
 }
