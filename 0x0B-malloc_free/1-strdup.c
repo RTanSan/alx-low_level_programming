@@ -28,7 +28,5 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	strcpy(arr, str);
-
 	return (arr);
 }
