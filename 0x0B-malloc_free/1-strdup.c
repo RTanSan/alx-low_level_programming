@@ -16,17 +16,19 @@ char *_strdup(char *str)
 {
 	char *arr;
 
+	arr = malloc(strlen(str) + 1);
+
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	arr = malloc(strlen(str) + 1);
-
 	if (arr == NULL)
 	{
-		return (NULL);
+		return(NULL);
 	}
+
+	strcpy(arr, str);
 
 	return (arr);
 }
