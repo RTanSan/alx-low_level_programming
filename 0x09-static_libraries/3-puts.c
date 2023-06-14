@@ -8,6 +8,6 @@
  *
  * Return: void
  */
-void _puts(char *c)
+void _puts(char *s)
 {
 }
