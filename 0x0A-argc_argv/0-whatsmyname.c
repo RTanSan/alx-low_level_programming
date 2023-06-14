@@ -6,8 +6,13 @@
  *
  * Return: return 0 (success)
  */
-int main(void)
+int main(int n, char *m[])
 {
-	printf("./mynameis\n");
+	if (n == 0)
+	{
+		return (0);
+	}
+
+	printf("%s\n", m[0]);
 	return (0);
 }
