@@ -3,6 +3,8 @@
 
 /**
  * main - prints its name
+ * @n: just an int for support
+ * @m: string to be printed
  *
  * Return: return 0 (success)
  */
