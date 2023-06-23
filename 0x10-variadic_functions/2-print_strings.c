@@ -11,4 +11,20 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	if 
+	va_list args;
+
+	va_start(args, n);
+
+	if (separator != NULL)
+	{
+		separator = "\n";
+	}
+
+	else
+	{
+		printf("(nil\n");
+	}
+
+	va_end(args);
+	printf("\n");
+}
