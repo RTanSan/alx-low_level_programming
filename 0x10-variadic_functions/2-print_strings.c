@@ -33,10 +33,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	else
 	{
-		printf("(nil\n");
+		printf("(nil ");
 	}
 
-	if (separator != NULL || i != n - 1)
+	if (separator != NULL && i != n - 1)
 	{
 		printf("%s", separator);
 	}
