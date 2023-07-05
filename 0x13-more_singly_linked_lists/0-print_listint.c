@@ -5,9 +5,10 @@
 
 /**
  * print_listint - prints all the elements of a listint_t list.
- * @h: listint_t list
+ * @h: //
  *
- * Return: return the number of nodes
+ * Return: number of nodes
+ * Description: You are allowed to use printf
  */
 size_t print_listint(const listint_t *h)
 {
