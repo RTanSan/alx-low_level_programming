@@ -12,3 +12,7 @@ File: 1-print_binary.c
 2. 10
 Write a function that returns the value of a bit at a given index.
 File: 2-get_bit.c
+
+3. 11
+Write a function that sets the value of a bit to 1 at a given index.
+File: 3-set_bit.c
