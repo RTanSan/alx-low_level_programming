@@ -8,3 +8,7 @@ File: 0-binary_to_uint.c
 1. 1
 Write a function that prints the binary representation of a number.
 File: 1-print_binary.c
+
+2. 10
+Write a function that returns the value of a bit at a given index.
+File: 2-get_bit.c

@@ -13,7 +13,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int m;
+	unsigned long int m;
 	int i;
 
 	m = sizeof(unsigned long int) * 8;
@@ -24,9 +24,9 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (i = m - 1; i >= 0; i--)
+	for (i = 0; i < m; i++)
 	{
-		if ((n >> i) & 1)
+		if ((n >> (m - 1 - i)) & 1)
 		{
 			putchar('1');
 		}
